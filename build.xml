@@ -67,4 +67,12 @@
     </copy>
   </target>
 
+  <target name="web-tomcat" description="Deploy web pages in a Tomcat instance">
+    <copy todir="${tomcat.nuxeo.war.dir}" overwrite="true">
+      <fileset dir="${basedir}">
+        <include name="**/src/main/**nuxeo.war/**" />
+      </fileset>
+    </copy>
+  </target>
+
  </project>
