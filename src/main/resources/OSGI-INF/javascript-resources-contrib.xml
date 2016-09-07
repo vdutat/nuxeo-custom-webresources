@@ -17,6 +17,13 @@
         <resource>rich_calendar_config.js</resource>
       </resources>
     </bundle>
+
+<!-- you can include this bundle in a page using a 'template' widget. See 'nxr:bundle' tag -->
+    <bundle name="rich_calendar_advanced_config">
+      <resources>
+        <resource>rich_calendar_config.js</resource>
+      </resources>
+    </bundle>
   
   </extension>
 
